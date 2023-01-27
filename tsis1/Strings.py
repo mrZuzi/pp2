@@ -1,27 +1,44 @@
-x = "Hello World"
-print(len(x)) #10
+print("Hello")
+print('Hello')
 
-txt = 'Hello World'
-x = txt[0]  #H
+#Assign String to a Variable
+a = "Hello"
+print(a)
 
-txt = 'Hello World'
-x = txt[2:5]  #llo
+#Multiline Strings
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
 
-txt = " Hello World "
-x = txt.strip() #Hello World"
+#Strings are Arrays
+a = "Hello, World!"
+print(a[1]) #Answer=> e
 
-txt = "Hello World"
-txt = txt.upper()
+#Looping Through a String
+for x in "banana":
+    print(x)
 
-txt = "Hello World"
-txt = txt.lower()
+#String Length
+a = "Hello, World!"
+print(len(a))
 
-txt = "Hello World"
-txt = txt.replace('H','J')
+#Check String 1
+txt = "The best things in life are free!"
+print("free" in txt)
 
-age = 36
-txt = "My name is John, and I am {}"
-print(txt.format(age))
+#Check String 2 by if
+txt = "The best things in life are free!"
+if "free" in txt:
+    print("Yes, 'free' is present.")
 
+#Check if NOT 1
+txt = "The best things in life are free!"
+print("expensive" not in txt)
 
+#Check if NOT 2 by if
+txt = "The best things in life are free!"
+if "expensive" not in txt:
+    print("No, 'expensive' is NOT present.")
 
