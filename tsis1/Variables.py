@@ -1,23 +1,25 @@
-carname = "Volvo"
+x = 5
+y = "John"
+print(x)
+print(y)
 
-x = 50
+x = 4       # x is of type int
+x = "Sally" # x is now of type str
+print(x)
+
+x = str(3)    # x will be '3'
+y = int(3)    # y will be 3
+z = float(3)  # z will be 3.0
 
 x = 5
-y = 10
-print(x+y)
+y = "John"
+print(type(x))
+print(type(y))
 
-x = 5
-y = 10
-z = x + y
-print (z)
+x = "John"
+# is the same as
+x = 'John'
 
-2my-first_name = "John"
-my_first_name = 'John'
-
-x=y=z = "orange"
-
-def myfunc():
-    global x
-    x = 'fantastic'
-    
-    
+a = 4
+A = "Sally"
+#A will not overwrite a
